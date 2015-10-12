@@ -6,13 +6,13 @@ It processes the active Illustartor document and exports properly named elements
 
 The steps involved are:
 
-Create/update a UI layout in adobe illustrator, and properly name all elements to be exported
+1. Create/update a UI layout in adobe illustrator, and properly name all elements to be exported
 
-Run the script
+2. Run the script
 
-Run libGDX's texture-packer, to create a sprite sheet with all elements
+3. Run libGDX's texture-packer, to create a sprite sheet with all elements
 
-Re-build a project that knows how to a) parse the .xml files and b) unpack the sprite sheets into a TextureAtlas.
+4. Re-build a project that knows how to a) parse the .xml files and b) unpack the sprite sheets into a TextureAtlas.
 
 -> Done!
 
